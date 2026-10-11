@@ -1,0 +1,4 @@
+.vagrant/
+*.key
+*.csr
+*.log

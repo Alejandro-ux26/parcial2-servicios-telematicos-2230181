@@ -1,0 +1,10 @@
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] 22/tcp                     ALLOW IN    Anywhere                  
+[ 2] 192.168.50.2 50000:50010/tcp on enp0s8 ALLOW FWD   Anywhere on enp0s9        
+[ 3] 192.168.50.2 21/tcp on enp0s8 ALLOW FWD   Anywhere on enp0s9        
+[ 4] 192.168.50.2 22/tcp on enp0s8 ALLOW FWD   Anywhere on enp0s9        
+[ 5] 22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+

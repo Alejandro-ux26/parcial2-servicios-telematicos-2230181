@@ -1,0 +1,127 @@
+Can't use SSL_get_servername
+depth=1 C = CO, ST = Valle del Cauca, L = Cali, O = UAO, OU = Servicios Telematicos, CN = CA-2230181
+verify return:1
+depth=0 C = CO, ST = Valle del Cauca, L = Cali, O = UAO, OU = Servicios Telematicos, CN = 192.168.60.3
+verify return:1
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:C = CO, ST = Valle del Cauca, L = Cali, O = UAO, OU = Servicios Telematicos, CN = 192.168.60.3
+   i:C = CO, ST = Valle del Cauca, L = Cali, O = UAO, OU = Servicios Telematicos, CN = CA-2230181
+   a:PKEY: rsaEncryption, 2048 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Oct  4 01:01:49 2026 GMT; NotAfter: Oct  4 01:01:49 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDezCCAmMCFCG9fmErq8fOjfRTyzQBW0KT9iZZMA0GCSqGSIb3DQEBCwUAMHkx
+CzAJBgNVBAYTAkNPMRgwFgYDVQQIDA9WYWxsZSBkZWwgQ2F1Y2ExDTALBgNVBAcM
+BENhbGkxDDAKBgNVBAoMA1VBTzEeMBwGA1UECwwVU2VydmljaW9zIFRlbGVtYXRp
+Y29zMRMwEQYDVQQDDApDQS0yMjMwMTgxMB4XDTI2MTAwNDAxMDE0OVoXDTI3MTAw
+NDAxMDE0OVowezELMAkGA1UEBhMCQ08xGDAWBgNVBAgMD1ZhbGxlIGRlbCBDYXVj
+YTENMAsGA1UEBwwEQ2FsaTEMMAoGA1UECgwDVUFPMR4wHAYDVQQLDBVTZXJ2aWNp
+b3MgVGVsZW1hdGljb3MxFTATBgNVBAMMDDE5Mi4xNjguNjAuMzCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBALgyKFlMNRnsvxhKgPOtP3zP4T6FwoqXus0x
+bdYiZsufECwR31pk153GFGKNGuWnD5va3KTE/SRKHu7fvqQS1TZfCI06pOUnwTg4
+ROloSuO8ucIhtgLvbOn/xDHsk2wJSsCySfwjtpllP8vtsFC65kHR0GB6+OxY9XSL
+m76yRYPqrfSfuzvdSZqCJqwRm653xiZyleEsovYRtlv56EXejCgyy52FmQYRX8VQ
+G9ErlCSmL707pUq9mHKwkMk6ZtpIXf1fqaTRNLLev+oGvKUzDtbT+5r0J1tGMST6
+QiEVGvt9q86TsROJdqTKbQ0uQTD6RD/RR7nA94jgGKfHHlknIHECAwEAATANBgkq
+hkiG9w0BAQsFAAOCAQEAqXzQx9C3kQYYU/wc9O+bc8TiOFi1OPSuEh9frjUNBru1
+2OOQ9+v/0sB0OqX22F+vwtAa8KYhm+id5zFZ2jS9FKwNA7HxNDV+zYT07TjAqZfW
+hRWgHbToaX5cpJwqw6hqjQsGTbYPExLatrCAuedgd9wg7oIIZ+hkcb6EKJjJAdEC
+67YTdD/B3aVt6x80XKnR3ZXStcBfm9n38AjrRFAcZ5pVSxATLgNcHDiCG1D6r7l6
+dXGmCF/2jTnMphIvk2gCoU7Ej8ezcI/7S5odU5Op5fKwcb7VMI7OrAe/Gqly/Z9k
+VyV6SnMTA/nRS6NzmBzG20XxXrRuP3WUQB63lkDf+A==
+-----END CERTIFICATE-----
+subject=C = CO, ST = Valle del Cauca, L = Cali, O = UAO, OU = Servicios Telematicos, CN = 192.168.60.3
+issuer=C = CO, ST = Valle del Cauca, L = Cali, O = UAO, OU = Servicios Telematicos, CN = CA-2230181
+---
+No client certificate CA names sent
+Requested Signature Algorithms: ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:Ed25519:Ed448:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA+SHA256:RSA+SHA384:RSA+SHA512:ECDSA+SHA224:RSA+SHA224
+Shared Requested Signature Algorithms: ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:Ed25519:Ed448:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA+SHA256:RSA+SHA384:RSA+SHA512
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: ECDH, prime256v1, 256 bits
+---
+SSL handshake has read 1695 bytes and written 739 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+220 (vsFTPd 3.0.5)
+DONE
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 8B09005F7BA7559E014D3ACB7F1EEC7B05634349860BCAC93E0FBA22BC11E9D7
+    Session-ID-ctx: 
+    Resumption PSK: DBCF2D37163381D628346DF3250DE7836A0D303844B8634A01593DD4651CCCC61D7E8445DC302C6435CEE53288E31111
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 2147483647 (seconds)
+    TLS session ticket:
+    0000 - 39 c2 38 c9 08 2b d1 31-23 44 8c c4 1e bd 9f 5e   9.8..+.1#D.....^
+    0010 - c6 c0 eb 9c eb db e7 96-b4 23 c8 ca 90 9b c4 de   .........#......
+    0020 - 00 44 4c 89 9b 0a 99 f1-b8 75 35 67 c7 78 a8 0f   .DL......u5g.x..
+    0030 - 9e 34 f4 2a f1 50 09 09-e4 65 de 4e 1a 67 c5 b9   .4.*.P...e.N.g..
+    0040 - bc 93 19 57 e5 e5 5f 25-76 d8 e8 f5 eb 1f b8 81   ...W.._%v.......
+    0050 - 91 b0 02 d1 ba 5a 77 55-b5 97 b3 3d 49 50 20 5a   .....ZwU...=IP Z
+    0060 - 00 4a 11 ce 46 36 83 bc-fe b4 0e a2 50 ec 1b db   .J..F6......P...
+    0070 - b3 f3 e7 11 cf 21 59 2d-0f 66 43 56 e1 f1 bb fa   .....!Y-.fCV....
+    0080 - 31 fc fd ee 6c 50 d0 09-f3 2e 30 12 06 27 a1 8b   1...lP....0..'..
+    0090 - 9f fe 34 01 70 1c ac 32-c0 9a 20 d1 5e 37 1f da   ..4.p..2.. .^7..
+    00a0 - 45 8e f4 99 73 4e b2 ef-cc b7 e7 7a aa d6 39 13   E...sN.....z..9.
+    00b0 - 39 7f 1d 6a 07 79 02 99-65 04 25 91 8b f7 4c b5   9..j.y..e.%...L.
+    00c0 - d0 c5 53 a6 38 df af dc-d8 f7 b7 35 d3 4d 1b f7   ..S.8......5.M..
+
+    Start Time: 1791759463
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: F7C416CD237626DE98145F99840E3DA97CCD380155CBA310814A37B097E8C5CF
+    Session-ID-ctx: 
+    Resumption PSK: 4C389807A5E3E2DADFA1F915EC166D459DEA307D0D5FC1870D6162E0B025A1613665CF339ED44002770E9956C954BBEF
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 2147483647 (seconds)
+    TLS session ticket:
+    0000 - 39 c2 38 c9 08 2b d1 31-23 44 8c c4 1e bd 9f 5e   9.8..+.1#D.....^
+    0010 - 34 ff d6 c6 9c 6e 0d fd-34 19 01 e1 66 08 25 df   4....n..4...f.%.
+    0020 - 5a 85 53 29 36 b5 1e 82-46 13 45 93 dd 8c c1 3d   Z.S)6...F.E....=
+    0030 - f9 4c 2e e7 f0 fb 90 2b-bc cb 4e 5b fa dc 77 0b   .L.....+..N[..w.
+    0040 - 26 66 10 b8 b4 36 fb 99-7a 13 92 13 f1 20 e8 ce   &f...6..z.... ..
+    0050 - 89 5d 75 0e d7 30 32 91-dc 2d 21 bb 0a a0 57 03   .]u..02..-!...W.
+    0060 - ee aa fe 43 d7 91 15 3d-10 10 6e ad 49 db 14 5a   ...C...=..n.I..Z
+    0070 - 1d 88 11 4c 8d 92 b9 27-c0 b4 ce 79 2e da 70 66   ...L...'...y..pf
+    0080 - 79 3a 6d 79 ff 48 f3 4a-7a 7a 96 1f cd 83 52 b0   y:my.H.Jzz....R.
+    0090 - cd 4b 1e 96 30 49 fb d8-b0 75 97 c0 1f f8 22 e5   .K..0I...u....".
+    00a0 - 17 02 a7 98 9e c7 6e b7-0e 5b 47 50 40 60 1b 64   ......n..[GP@`.d
+    00b0 - af 62 a2 16 24 40 3d dc-bd 71 cc 4e f5 91 b3 10   .b..$@=..q.N....
+    00c0 - b3 98 4e d2 d5 a6 45 f3-42 33 11 5b 07 bb ad d2   ..N...E.B3.[....
+
+    Start Time: 1791759463
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
